@@ -4,9 +4,7 @@
   let roll = Math.floor(Math.random()*6+1);
   // if roll equals 6, display "6! You win!"
 
-  // otherwise:
-
-  // use a confirm and say: "You rolled a [roll]"
+  // otherwise use a confirm and say: "You rolled a [roll]"
 
   // then call rollDice again.
 
