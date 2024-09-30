@@ -1,26 +1,27 @@
 /* Simple Guess Program */
 
-// create global variable guess, set to 0
-var guess=0;
-// create a global variable called answer and store a random integer 1-100
-var answer= Math.floor(Math.random()*100+1);
 // define function guessGame
-function rollDice(){
-// display the answer for testing purposes only
+function guessGame() { 
+  // generate a random integer 1-100
+var answer= Math.floor(Math.random()*100+1);
+  // display the integer for testing purposes only
 alert(answer);
-// set guess equal to prompt asking user to "Guess a number, 1-100"
+  // create guess and set equal to 0 
+var guess=0;
+  // loop while guess is not equal to answer
+while (guess != answer){
+    // set guess equal to asking user to "Guess a number, 1-100"
+guess= prompt ("Guess a number1 -100");
+    // if guess equals answer display "Correct!" 
+if(guess == answer) alert("Correct!");
+    // or if guess is greater than answer display "Too high!" 
+else if(guess<answer)  alert("toooooo lowwwwww");
+    // or if guess is less than answer display "Too low!" 
+else if (guess>answer) alert("too high");
+
+    // else say "Bad input"
+
+  // end the loop
 }
-// if guess equals answer display "Correct!" 
-
-// or if guess is greater than answer create a code block
-
-
-// otherwise open a code block
-
-// display "Too low!" 
-
-// call guessGame
-
-// close the else code block
-
 // end the function
+}
