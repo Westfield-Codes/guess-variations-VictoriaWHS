@@ -154,3 +154,18 @@ else alert("bad input");
 }
 // end the function
 }
+
+
+
+Alert ("messing around");
+function guessGame(){
+  var guess = prompt("look up");
+  alert("The sun is rising");
+  var guess2 = rise1 =prompt("Do you like the sunset?");
+  if (guess2 == "yes"| "Yes") var rise2 = prompt("Do you know why it rises?");
+  else if(guess2 == "no"| "No") var rise3 =prompt("Then why are you watching?");
+  else alert ("?");
+  if (rise1 = "For fun"| "Just because" | "I like them") alert ("cool I guess");
+  else if (rise2 = "why does it?"| "why") alert("it is to alert the begining of a new day");
+  }
+  alert("End of messing around.  Dont know how to procced. Was trying something");
